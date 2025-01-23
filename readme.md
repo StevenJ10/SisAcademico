@@ -17,9 +17,13 @@ Antes de comenzar, asegúrate de tener lo siguiente instalado:
     - Java Extension Pack
     - Maven for Java
 
+- **PostgreSQL**: Crear una base de datos SisAcademico, ejecutar el archivo de tablas.sql y actualizar la clase DBUtil.java:
+    - private static final String USER = "postgres";
+    - private static final String PASSWORD = "admin"; (En este caso la contraseña de tu gestor)
+
 ## 2. Clonar el Repositorio
 Primero, clona el repositorio desde GitHub (o desde la ubicación del repositorio en tu caso):
-    https://github.com/StevenJ10/SisAcademico.git
+    - https://github.com/StevenJ10/SisAcademico.git
 
 ## 3. Limpiar el proyecto:
 Una vez clonado el proyecto, abre una terminal (VSCode) y navega hasta la carpeta del proyecto. Para limpiar el proyecto, ejecutar el siguiente comando:
@@ -87,7 +91,7 @@ Antes de comenzar, asegúrate de tener lo siguiente instalado:
     https://tomcat.apache.org/download-11.cgi
 
 - Para comprobar si tienen instalado correctamente el servidor ingresa la siguiente ruta en el navegador:
-    localhost:8080
+    - localhost:8080
 
 - Luego la siguiente ruta del proyecto para visualizar la ejecución: 
-    http://localhost:8080/demo-1.0-SNAPSHOT/login.jsp
+    - http://localhost:8080/demo-1.0-SNAPSHOT/login.jsp
