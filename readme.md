@@ -18,7 +18,8 @@ Antes de comenzar, asegúrate de tener lo siguiente instalado:
     - Maven for Java
 
 ## 2. Clonar el Repositorio
-
+Primero, clona el repositorio desde GitHub (o desde la ubicación del repositorio en tu caso):
+    https://github.com/StevenJ10/SisAcademico.git
 
 ## 3. Limpiar el proyecto:
 Una vez clonado el proyecto, abre una terminal (VSCode) y navega hasta la carpeta del proyecto. Para limpiar el proyecto, ejecutar el siguiente comando:
