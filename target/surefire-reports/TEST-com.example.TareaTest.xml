@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.TareaTest" time="0.026" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Darkness\Documents\Campus Virtual\Gestión de la Configuración del Software\Proyectos\2P\SisAcademicoV3\demo\target\test-classes;C:\Users\Darkness\Documents\Campus Virtual\Gestión de la Configuración del Software\Proyectos\2P\SisAcademicoV3\demo\target\classes;C:\Users\Darkness\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Darkness\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Darkness\.m2\repository\org\openjfx\javafx-controls\17.0.2\javafx-controls-17.0.2-win.jar;C:\Users\Darkness\.m2\repository\org\openjfx\javafx-graphics\17.0.2\javafx-graphics-17.0.2.jar;C:\Users\Darkness\.m2\repository\org\openjfx\javafx-graphics\17.0.2\javafx-graphics-17.0.2-win.jar;C:\Users\Darkness\.m2\repository\org\openjfx\javafx-base\17.0.2\javafx-base-17.0.2.jar;C:\Users\Darkness\.m2\repository\org\openjfx\javafx-base\17.0.2\javafx-base-17.0.2-win.jar;C:\Users\Darkness\.m2\repository\org\openjfx\javafx-fxml\17.0.2\javafx-fxml-17.0.2-win.jar;C:\Users\Darkness\.m2\repository\org\openjfx\javafx-controls\17.0.2\javafx-controls-17.0.2.jar;C:\Users\Darkness\.m2\repository\org\postgresql\postgresql\42.5.4\postgresql-42.5.4.jar;C:\Users\Darkness\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\Darkness\.m2\repository\jakarta\servlet\jakarta.servlet-api\5.0.0\jakarta.servlet-api-5.0.0.jar;C:\Users\Darkness\.m2\repository\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar;C:\Users\Darkness\.m2\repository\javax\servlet\jsp\javax.servlet.jsp-api\2.3.3\javax.servlet.jsp-api-2.3.3.jar;C:\Users\Darkness\.m2\repository\org\glassfish\javax.el\3.0.0\javax.el-3.0.0.jar;C:\Users\Darkness\.m2\repository\org\apache\tomcat\tomcat-jsp-api\9.0.41\tomcat-jsp-api-9.0.41.jar;C:\Users\Darkness\.m2\repository\org\apache\tomcat\tomcat-el-api\9.0.41\tomcat-el-api-9.0.41.jar;C:\Users\Darkness\.m2\repository\org\apache\tomcat\tomcat-servlet-api\9.0.41\tomcat-servlet-api-9.0.41.jar;C:\Users\Darkness\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Guayaquil"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="EC"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
+    <property name="sun.java.command" value="C:\Users\Darkness\AppData\Local\Temp\surefire3925774598321688460\surefirebooter1182514503118650473.jar C:\Users\Darkness\AppData\Local\Temp\surefire3925774598321688460 2025-01-22T22-44-46_932-jvmRun1 surefire4227319501314526161tmp surefire_02291995177753580179tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Darkness\Documents\Campus Virtual\Gestión de la Configuración del Software\Proyectos\2P\SisAcademicoV3\demo\target\test-classes;C:\Users\Darkness\Documents\Campus Virtual\Gestión de la Configuración del Software\Proyectos\2P\SisAcademicoV3\demo\target\classes;C:\Users\Darkness\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Darkness\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Darkness\.m2\repository\org\openjfx\javafx-controls\17.0.2\javafx-controls-17.0.2-win.jar;C:\Users\Darkness\.m2\repository\org\openjfx\javafx-graphics\17.0.2\javafx-graphics-17.0.2.jar;C:\Users\Darkness\.m2\repository\org\openjfx\javafx-graphics\17.0.2\javafx-graphics-17.0.2-win.jar;C:\Users\Darkness\.m2\repository\org\openjfx\javafx-base\17.0.2\javafx-base-17.0.2.jar;C:\Users\Darkness\.m2\repository\org\openjfx\javafx-base\17.0.2\javafx-base-17.0.2-win.jar;C:\Users\Darkness\.m2\repository\org\openjfx\javafx-fxml\17.0.2\javafx-fxml-17.0.2-win.jar;C:\Users\Darkness\.m2\repository\org\openjfx\javafx-controls\17.0.2\javafx-controls-17.0.2.jar;C:\Users\Darkness\.m2\repository\org\postgresql\postgresql\42.5.4\postgresql-42.5.4.jar;C:\Users\Darkness\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\Darkness\.m2\repository\jakarta\servlet\jakarta.servlet-api\5.0.0\jakarta.servlet-api-5.0.0.jar;C:\Users\Darkness\.m2\repository\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar;C:\Users\Darkness\.m2\repository\javax\servlet\jsp\javax.servlet.jsp-api\2.3.3\javax.servlet.jsp-api-2.3.3.jar;C:\Users\Darkness\.m2\repository\org\glassfish\javax.el\3.0.0\javax.el-3.0.0.jar;C:\Users\Darkness\.m2\repository\org\apache\tomcat\tomcat-jsp-api\9.0.41\tomcat-jsp-api-9.0.41.jar;C:\Users\Darkness\.m2\repository\org\apache\tomcat\tomcat-el-api\9.0.41\tomcat-el-api-9.0.41.jar;C:\Users\Darkness\.m2\repository\org\apache\tomcat\tomcat-servlet-api\9.0.41\tomcat-servlet-api-9.0.41.jar;C:\Users\Darkness\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Darkness"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Darkness\Documents\Campus Virtual\Gestión de la Configuración del Software\Proyectos\2P\SisAcademicoV3\demo"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Darkness\AppData\Local\Temp\surefire3925774598321688460\surefirebooter1182514503118650473.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.1+11-39"/>
+    <property name="user.name" value="Darkness"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Darkness\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Darkness\AppData\Local\Temp\"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="C:\Users\Darkness\Documents\Campus Virtual\Gestión de la Configuración del Software\Proyectos\2P\SisAcademicoV3\demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\xampp\php;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\Darkness\Downloads\Android\platform-tools;C:\Program Files\PuTTY\;C:\Program Files\Amazon\AWSCLIV2\;C:\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Darkness\AppData\Local\Microsoft\WindowsApps;C:\Users\Darkness\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.5\bin;C:\Users\Darkness\AppData\Local\spicetify;C:\flutter\bin;C:\Users\Darkness\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.1+11-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testConstructorYGetters" classname="com.example.TareaTest" time="0"/>
+  <testcase name="testSetters" classname="com.example.TareaTest" time="0"/>
+</testsuite>

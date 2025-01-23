@@ -1,0 +1,16 @@
+com\example\model\Asignatura.class
+com\example\ui\VentanaGestionAsignaturas.class
+com\example\ui\Tarea.class
+com\example\ui\VentanaLogin.class
+com\example\ui\WebServlet.class
+com\example\ui\VentanaGestionTareas.class
+com\example\ui\VentanaRegistro.class
+com\example\model\Tarea.class
+com\example\ui\LoginServlet.class
+com\example\ui\GestionarTareasServlet.class
+com\example\ui\LogoutServlet.class
+com\example\App.class
+com\example\ui\VentanaGestionTareas$1.class
+com\example\util\DBUtil.class
+com\example\ui\VentanaPrincipal.class
+com\example\model\Usuario.class
